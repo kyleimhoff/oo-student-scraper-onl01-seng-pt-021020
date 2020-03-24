@@ -13,7 +13,7 @@ class Scraper
       student_link = "#{student.attr('href')}"
       students << {name: student_name, location: student_location, student_url: student_-link}
     end
-  
+  end
   students
   end
 
