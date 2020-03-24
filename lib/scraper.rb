@@ -32,7 +32,7 @@ class Scraper
         student[:blog] = link 
       end
     end 
-    student 
+    student[:profile_quote] = profile.css("div.main-wrapper.profile.vitals-text-container")
   end
 
 end
